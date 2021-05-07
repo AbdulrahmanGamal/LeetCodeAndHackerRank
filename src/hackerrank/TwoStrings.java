@@ -1,7 +1,9 @@
-package hackerrank;//problem link on hacker rank
+package hackerrank;
 
 import java.util.HashSet;
 import java.util.Set;
+//problem link on hacker rank
+//https://www.hackerrank.com/challenges/two-strings/problem
 
 public class TwoStrings {
     public static String twoStrings(String s1, String s2) {
