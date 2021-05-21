@@ -12,8 +12,17 @@ fun singleNumber(nums: IntArray): Int {
 
     return numsSet.elementAt(0)
 }
+//Optimal solution which take less memory
+fun usingBitwiseOperations(nums: IntArray): Int {
+    var res = 0
+    for (n in nums) {
+        res =res  xor n
+    }
+
+    return res
+}
 
 fun main() {
     val nums = arrayOf(2, 2, 1).toIntArray()
-    println(singleNumber(nums))
+    println(usingBitwiseOperations(nums))
 }
