@@ -18,7 +18,7 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
 }
 
 fun main() {
-    val arr= intArrayOf( 2,7,11,15)
+   val arr= intArrayOf( 2,7,11,15)
     twoSum(arr,9).forEach {
         println(it)
     }
